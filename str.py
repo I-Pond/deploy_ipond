@@ -61,5 +61,5 @@ if st.button('Predict'):
     new_data_ref = ref.push()  # Buat child baru di bawah node 'prediksi_air'
     new_data_ref.set(data)  # Set data ke child yang baru saja dibuat
 
-    st.success('Prediksi berhasil didistribusikan ke Firebase.')
+    st.success('Data Berhasil di Predict')
 
